@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.com.chairul.projectuaschairulrahmant" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name=".GridCoomingActivity"
+            android:label="@string/title_activity_grid_cooming" >
+        </activity>
+        <activity
+            android:name=".PesanTiketActivity"
+            android:label="@string/title_activity_pesan_tiket" >
+        </activity>
+        <activity
+            android:name=".Output_GridComing"
+            android:label="@string/title_activity_output__grid_coming" >
+        </activity>
+        <activity
+            android:name=".CityPilem"
+            android:label="@string/title_activity_city_pilem" >
+        </activity>
+        <activity
+            android:name=".Grid1listview"
+            android:label="@string/title_activity_grid1listview" >
+        </activity>
+        <activity
+            android:name=".MainGrid1list"
+            android:label="@string/title_activity_main_grid1list" >
+        </activity>
+        <activity
+            android:name=".Grid1listOutput"
+            android:label="@string/title_activity_grid1list_output" >
+        </activity>
+        <activity
+            android:name=".DetailTiket"
+            android:label="@string/title_activity_detail_tiket" >
+        </activity>
+        <activity
+            android:name=".Informasi"
+            android:label="@string/title_activity_informasi" >
+        </activity>
+        <activity
+            android:name=".SplashScreen"
+            android:label="Pilem XXI Chairul" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

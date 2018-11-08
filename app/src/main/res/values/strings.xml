@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProjectUASChairulRahmanT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_grid_cooming">GridCoomingActivity</string>
+    <string name="title_activity_pesan_tiket">PesanTiketActivity</string>
+    <string name="title_activity_output__grid_coming">Output_GridComing</string>
+    <string name="title_activity_city_pilem">city_pilem</string>
+    <string name="title_activity_list_nama_pilem">ListNamaPilem</string>
+
+    <string-array name="spncity">
+        <item>Jakarta</item>
+        <item>Bandung</item>
+        <item>Padang</item>
+        <item>Aceh</item>
+        <item>Makasar</item>
+        <item>Balikpapan</item>
+    </string-array>
+    <string-array name="spnjam">
+        <item>12.30</item>
+        <item>15.00</item>
+        <item>17.30</item>
+        <item>20.00</item>
+    </string-array>
+    <string-array name="spnhari">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+    </string-array>
+    <string-array name="spnkursi">
+        <item>A1</item>
+        <item>A2</item>
+        <item>A3</item>
+        <item>A4</item>
+        <item>A5</item>
+        <item>B1</item>
+        <item>B2</item>
+        <item>B3</item>
+        <item>B4</item>
+        <item>B5</item>
+        <item>C1</item>
+        <item>C2</item>
+        <item>C3</item>
+        <item>C4</item>
+        <item>C5</item>
+    </string-array>
+
+    <string name="title_activity_list_foto_pilem">ListFotoPilem</string>
+    <string name="title_activity_base_adapter_foto">BaseAdapterFotoActivity</string>
+    <string name="title_activity_pilem_list">PilemListActivity</string>
+    <string name="title_activity_base_adapter_photo">BaseAdapterPhotoActivity</string>
+    <string name="title_activity_detail_list">DetailList</string>
+    <string name="title_activity_grid1listview">Grid1listview</string>
+    <string name="title_activity_main_grid1list">MainGrid1list</string>
+    <string name="title_activity_grid1list_output">Grid1listOutput</string>
+    <string name="title_activity_detail_tiket">DetailTiket</string>
+    <string name="title_activity_informasi">Informasi</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+</resources>

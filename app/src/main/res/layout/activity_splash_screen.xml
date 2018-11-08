@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#000"
+    tools:context="example.com.chairul.projectuaschairulrahmant.SplashScreen">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="Lunch's Software"
+        android:textColor="@color/xgold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300sp"
+        android:layout_height="300sp"
+        android:layout_below="@+id/txt1"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg"
+       />
+    <ProgressBar
+        android:id="@+id/progress1"
+        android:layout_alignStart="@+id/txt1"
+        android:layout_alignLeft="@+id/txt1"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginLeft="70dp"
+        android:layout_width="100sp"
+        android:layout_height="100sp" />
+</RelativeLayout>

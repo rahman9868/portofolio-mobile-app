@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="example.com.chairul.projectuaschairulrahmant.PesanTiketActivity"
+    android:background="@drawable/backgc">
+
+    <TableLayout
+        android:id="@+id/tbl1"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/txtJudulPilem"
+                android:text="Judul Film   "
+                android:textSize="20dp"
+                android:textColor="@color/grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/edtJudul"
+                android:textColor="@color/grey"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/txtStudi"
+                android:layout_marginTop="20dp"
+                android:text="Studio    "
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioGroup
+                android:layout_marginTop="20dp">
+                <RadioButton
+                    android:id="@+id/rd1"
+                    android:textColor="@color/grey"
+                    android:text="Studio 1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:id="@+id/rd2"
+                    android:text="Studio 2"
+                    android:textColor="@color/grey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:id="@+id/rd3"
+                    android:text="Studio 3"
+                    android:textColor="@color/grey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/txtJam"
+                android:text="Jam Tayang  "
+                android:textSize="20dp"
+                android:textColor="@color/grey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Spinner
+                android:id="@+id/spn1"
+                android:entries="@array/spnjam"
+                android:textColor="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/txtHari"
+                android:textColor="@color/grey"
+                android:text="Hari  "
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Spinner
+                android:id="@+id/spn2"
+                android:textColor="@color/grey"
+                android:entries="@array/spnhari"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/txtKursi"
+                android:textColor="@color/grey"
+                android:text="No Kursi  "
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <Spinner
+                android:id="@+id/spn3"
+                android:entries="@array/spnkursi"
+                android:textColor="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/txtFood"
+                android:text="Food  "
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <CheckBox
+                android:id="@+id/chk1"
+                android:text="Sandwich"
+                android:textColor="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                />
+            <CheckBox
+                android:id="@+id/chk2"
+                android:text="Kentang"
+                android:textColor="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                />
+            <CheckBox
+                android:id="@+id/chk3"
+                android:text="Keripik"
+                android:textColor="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+    </TableLayout>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_below="@+id/tbl1"
+        android:text="BUY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

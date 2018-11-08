@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/backg"
+    tools:context="example.com.chairul.projectuaschairulrahmant.Informasi">
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/grey"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Informasi Aplikasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtInformasi"
+        android:layout_below="@+id/txtInfo"
+        android:textSize="23dp"
+        android:textColor="@color/grey"
+        android:textStyle="normal"
+        android:text="Pilem XX1\nadalah perangkat lunak yang bertujuan memudahkan anda dalam melakukan pemesan tiket bioskop\nAplikasi ini memberikan kenyamanan anda dikarenakan anda tidak perlu ketakutan tidak mendapatkan tiket karena terlambat. Aplikasi ini masih dalam tahap pengembangan, oleh karena itu saya mohon maaf atas ketidak nyamanannya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnHome1"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/txtInformasi"
+        android:text="HOME"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
